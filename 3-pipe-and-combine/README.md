@@ -40,7 +40,7 @@ This is an error
 
 Now lets output just standard output. 
 ```bash
-    $ python3 generate.py 1>names.txt 2>errors.txt
+    $ python3 generate.py 1>names.txt
 This is an error
 This is an error
 This is an error
@@ -51,7 +51,7 @@ This is an error
 Now lets output both! Notice I dropped the 1. Thats because it is the default.
 
 ```bash
-$ python3 generate.py 1>names.txt 2>errors.txt
+$ python3 generate.py >names.txt 2>errors.txt
 ```
 
 ## Piping!
