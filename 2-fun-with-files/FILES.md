@@ -36,7 +36,7 @@ Andrew|Jon|Andrew|Isabella|Logan|Isabella|Andrew|Bob|Dakota|Hunter
 Hunter|Alice|Bob|Dakota|Logan|Andrew|Bob|Fred|Jon|Logan
 ```
 
-You can change the number of files you want to see with the -n flag.
+You can change the number of lines you want to see with the -n flag.
 
 ```bash
     $ head -n1 test.txt
@@ -61,7 +61,7 @@ Anna|Bob|Bob|Jon|Logan|Logan|Jess|Dakota|Dakota|Jon
 Andrew|Dakota|Alice|Logan|Alice|Jess|Andrew|Logan|Dakota|Isabella
 ```
 
-You can change the number of files you want to see with the -n flag.
+You can change the number of lines you want to see with the -n flag.
 
 ```bash
     $ head -n1 test.txt
@@ -70,7 +70,7 @@ Andrew|Dakota|Alice|Logan|Alice|Jess|Andrew|Logan|Dakota|Isabella
 
 ## Find a file
 
-Now say youre searching for all text files in some directory. You can use the `find` command to locate these and even run commands on them.
+Now say you're searching for all text files in some directory. You can use the `find` command to locate these and even run commands on them.
 
 **NOTE:** Unlike most commands the directory comes **BEFORE** the flags.
 
@@ -82,7 +82,7 @@ Locate all text files
 ./2-fun-with-files/test.txt
 ```
 
-What happens if you put the directory after the experssion:
+What happens if you put the directory after the expression:
 
 ```bash
     $ find -name "*.txt" .
@@ -132,9 +132,9 @@ We can use the -n flag to find out.
 
 Grep also has a lot of cool features and flags so please look at the manual with `man grep` or search online for `grep manual`.
 
-## Spliting files
+## Splitting files
 
-Now we know that the test.txt file has a bunch of columns sperated by the pipe `|`. What if we wanted to just get the first column of the file?
+Now we know that the test.txt file has a bunch of columns separated by the pipe `|`. What if we wanted to just get the first column of the file?
 
 We can use the `cut` command. This allows you to split a line by byte, character, or deliminator.
 

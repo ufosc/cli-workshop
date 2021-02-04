@@ -2,7 +2,7 @@
 
 ## Redirecting output
 
-Lets redirect output from standard out and standard error. Bash/ZSH/most shells will let you redirect the output to different filedescriptors to different commands or even files.
+Lets redirect output from standard out and standard error. Bash/ZSH/most shells will let you redirect the output to different file descriptors to different commands or even files.
 
 Lets first just run generate.py
 
@@ -79,5 +79,5 @@ Anna|Bob|Andrew|Hunter|Hunter|Hunter|Andrew|Bob|Fred|Fred
 
 ## Advanced Challenge
 
-1. Whats the distribution (AKA the count of each name) in the 3rd column? (You'll need cut and sort with flags)
+1. Whats the distribution (AKA the count of each name) in the 3rd column? Ascending? (You'll need cut, uniq with flags, sort with flags)
 2. Whats the count of Bob in the 3rd column? (You'll need grep, wc -l, cut)
